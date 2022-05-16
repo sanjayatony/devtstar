@@ -1,6 +1,9 @@
-module.exports = function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("./src/css/");
-  eleventyConfig.addWatchTarget("./src/css/");
+const { DateTime } = require("luxon");
+module.exports = function (config) {
+
+  config.addFilter("asPostDate", (dateObj) => {
+    return DateTime.fromJSDate(dateObj).toFormat("yyyy-MM-dd");
+  });
 
   return {
     dir: {
