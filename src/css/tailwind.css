@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+a{
+	@apply text-[blue] underline;
+	&:visited{
+		@apply text-[purple];
+	}
+}
+.index{
+	> ul{
+		@apply list-disc pl-12 space-y-4 tracking-wider;
+
+		ul{
+			@apply list-[circle] pl-12;
+		}
+	}
+}
