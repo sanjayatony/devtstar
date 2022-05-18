@@ -1,16 +1,12 @@
 ---
-title: vegapunk
+title: devtstar
 layout: base.njk
 ---
-<div class="index">
+### me
+- [email](mailto:tony@sanjaya.info)
+- [github](https://github.com/sanjayatony)
+- [twitter](https://twitter.com/sanjayatony)
 
-- me
-	- [email](mailto:tony@sanjaya.info)
-	- [github](https://github.com/sanjayatony)
-	- [twitter](https://twitter.com/sanjayatony)
-- thoughts
-{% for post in collections.posts %}
-	- {{ post.data.date | asPostDate }} [{{ post.data.title }}]({{ post.url }})
-{%- endfor %}
-
-</div>
+### logs
+{% for post in collections.posts reversed %} - {{ post.data.date | asPostDate }} [{{ post.data.title }}]({{ post.url }}) 
+{% endfor %}
