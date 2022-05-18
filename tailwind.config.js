@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        blex: ["IBM Plex Mono", "monospace"],
+        'blex': ['IBM Plex Mono', 'monospace'],
       }
     },
   },
