@@ -1,10 +1,9 @@
 ---
 layout: base.njk
 ---
-<div class="prose prose-stone not-italic">
+<div class="not-italic">
   {{ content | safe }}
-  
 </div>
-<footer class="mt-8">
- 
+<footer class="mt-10 text-xs">
+  Published on {{ page.date | asPostDate }}
 </footer>
