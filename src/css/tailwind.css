@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,10 +11,15 @@ a{
 }
 .index{
 	> ul{
-		@apply list-disc pl-12 space-y-4 tracking-wider;
+		@apply italic list-disc list-outside tracking-wide pl-8;
+		
 
 		ul{
-			@apply list-[circle] pl-12;
+			@apply list-outside pl-8 space-y-2 list-[circle] mt-2; 
+
+			/*li:before{
+				@apply content-['*'] mr-4 not-italic text-black;
+			}*/
 		}
 	}
 }
