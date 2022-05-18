@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "tailwind:process": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/style.css --watch --postcss",
+    "tailwind:process": "npx tailwindcss -i ./src/css/tailwind.css -o ./_site/css/style.css --watch --postcss",
     "start": "concurrently \"npm run tailwind:process\" \"npm run serve\"",
     "serve": "eleventy --serve",
     "build": "eleventy"
