@@ -1,7 +1,11 @@
 module.exports = {
   content: ["./src/**/*.{html,js,njk}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        blex: ["IBM Plex Mono", "monospace"],
+      }
+    },
   },
   plugins: [
     require('@tailwindcss/typography'),
