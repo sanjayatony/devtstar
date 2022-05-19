@@ -1,6 +1,8 @@
 ---
 title: It's "o" not "i" (Vim)
 date: 2022-05-19
+tags: 
+  - vim
 ---
 
 Since in college I knew Vim. There was a Linux lesson, where we are using Mandriva inside a VMware. We also learn how to use Vim back then. From there I knew some basic command using Vim. 

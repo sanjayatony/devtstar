@@ -1,6 +1,8 @@
 ---
 title: Hello World
 date: 2022-05-15
+tags:
+  - devtstar
 ---
 
 Hello world.

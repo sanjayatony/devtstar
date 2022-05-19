@@ -1,6 +1,8 @@
 ---
 title: Lorem ipsum
 date: 2022-05-10
+tags:
+  - etc
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
